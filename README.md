@@ -1,2 +1,5 @@
-# popular_movies_kotlin
-Project from Udacity's course ported to kotlin
+# Popular Movies Kotlin
+Project from the Android course from Udacity.
+
+This remake makes use of `Kotlin` and a new approach to 
+`Clean Architecture`.
