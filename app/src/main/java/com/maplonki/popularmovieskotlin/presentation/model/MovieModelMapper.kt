@@ -7,6 +7,17 @@ import com.maplonki.popularmovieskotlin.domain.model.Movie
  */
 class MovieModelMapper {
     fun convertToModel(movieList: List<Movie>): List<MovieModel> {
-        return movieList.map { MovieModel() }
+        return movieList.map {
+            MovieModel(
+                    id = it.id,
+                    title = it.title,
+                    overview = it.overview,
+                    releaseDate = it.releaseDate,
+                    coverImage = it.coverImage,
+                    backdropImage = it.backdropImage,
+                    voteAverage = it.voteAverage,
+                    voteCount = it.voteCount
+            )
+        }
     }
 }

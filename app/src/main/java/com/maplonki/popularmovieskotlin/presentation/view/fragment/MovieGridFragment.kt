@@ -10,11 +10,11 @@ import android.view.View
 import android.view.ViewGroup
 import com.maplonki.popularmovieskotlin.R
 import com.maplonki.popularmovieskotlin.databinding.FragmentMovieGridBinding
-import com.maplonki.popularmovieskotlin.inflate
 import com.maplonki.popularmovieskotlin.presentation.model.MovieModel
 import com.maplonki.popularmovieskotlin.presentation.presenter.MoviePresenter
 import com.maplonki.popularmovieskotlin.presentation.view.MovieGrid
 import com.maplonki.popularmovieskotlin.presentation.view.adapter.MovieGridAdapter
+import com.maplonki.popularmovieskotlin.util.extensions.inflate
 
 /**
  * Created by hugo on 2/8/18.
